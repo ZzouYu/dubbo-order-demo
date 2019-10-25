@@ -1,0 +1,4 @@
+com\zy\dubbo\user\vo\Response.class
+com\zy\dubbo\user\vo\UserLoginRequest.class
+com\zy\dubbo\user\service\IUserService.class
+com\zy\dubbo\user\vo\UserLoginResponse.class
