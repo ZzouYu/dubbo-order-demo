@@ -1,4 +1,5 @@
-D:\dubbo\incubator-dubbo-dubbo-2.6.0\dubbo-order\order-api\src\main\java\com\zy\dubbo\order\DoOrderRequest.java
-D:\dubbo\incubator-dubbo-dubbo-2.6.0\dubbo-order\order-api\src\main\java\com\zy\dubbo\order\App.java
-D:\dubbo\incubator-dubbo-dubbo-2.6.0\dubbo-order\order-api\src\main\java\com\zy\dubbo\order\service\IOrderService.java
-D:\dubbo\incubator-dubbo-dubbo-2.6.0\dubbo-order\order-api\src\main\java\com\zy\dubbo\order\DoOrderResponse.java
+D:\dubbo\dubbo-order\order-api\src\main\java\com\zy\dubbo\order\DoOrderRequest.java
+D:\dubbo\dubbo-order\order-api\src\main\java\com\zy\dubbo\order\service\IOrderPayService.java
+D:\dubbo\dubbo-order\order-api\src\main\java\com\zy\dubbo\order\App.java
+D:\dubbo\dubbo-order\order-api\src\main\java\com\zy\dubbo\order\service\IOrderService.java
+D:\dubbo\dubbo-order\order-api\src\main\java\com\zy\dubbo\order\DoOrderResponse.java

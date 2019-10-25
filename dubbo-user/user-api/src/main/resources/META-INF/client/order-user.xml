@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://code.alibabatech.com/schema/dubbo
+	 http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <!-- http://dubbo.apache.org/schema/dubbo/dubbo.xsd 上面配置为这个一直报错，改为 http://code.alibabatech.com/schema/dubbo/dubbo.xsd -->
+    <dubbo:registry address="zookeeper://192.168.7.60:2181/backup=192.168.7.61:2181，192.168.7.62:2181"></dubbo:registry>
+    <dubbo:reference id="userService" interface="com.zy.dubbo.user.service.IUserService" version="1.0.0"/>
+
+</beans>

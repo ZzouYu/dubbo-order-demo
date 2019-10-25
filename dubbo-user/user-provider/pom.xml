@@ -3,16 +3,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>dubbo-order</artifactId>
-        <groupId>com.zy.dubbo.order</groupId>
+        <artifactId>dubbo-user</artifactId>
+        <groupId>com.zy.dubbo.user</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zy.dubbo.order</groupId>
-    <artifactId>order-provider</artifactId>
+    <groupId>com.zy.dubbo.user</groupId>
+    <artifactId>user-provider</artifactId>
 
-    <name>order-provider</name>
+    <name>user-provider</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -30,12 +30,12 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <artifactId>order-api</artifactId>
-            <groupId>com.zy.dubbo.order</groupId>
+            <artifactId>user-api</artifactId>
+            <groupId>com.zy.dubbo.user</groupId>
         </dependency>
         <dependency>
-        <groupId>com.alibaba</groupId>
-        <artifactId>dubbo</artifactId>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.sgroschupf</groupId>
@@ -49,12 +49,18 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
-       <!-- <dependency>
-            <artifactId>log4j</artifactId>
-            <groupId>log4j</groupId>
-            <version>1.2.17</version>
-        </dependency>-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+        </dependency>
+        <!-- <dependency>
+             <artifactId>log4j</artifactId>
+             <groupId>log4j</groupId>
+             <version>1.2.17</version>
+         </dependency>-->
     </dependencies>
-
-
 </project>
